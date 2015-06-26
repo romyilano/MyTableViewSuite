@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OddEvenTableViewController.h
 //  MyTableViewSuite
 //
 //  Created by Romy on 6/26/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OddEvenTableViewController : UITableViewController
 
 @end
-
