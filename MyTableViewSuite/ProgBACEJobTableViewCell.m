@@ -12,6 +12,8 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    self.backgroundColor = [UIColor clearColor];
+    
     self.jobTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17.0];
     self.jobDescriptionLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:12.0];
     self.jobDescriptionLabel.numberOfLines = 0;

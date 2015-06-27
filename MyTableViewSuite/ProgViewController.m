@@ -15,6 +15,7 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
 
 @interface ProgViewController ()
 @property (strong, nonatomic) NSMutableArray *tableDataArray;
+@property (strong, nonatomic) UIImageView *backgroundView;
 @end
 
 @implementation ProgViewController
@@ -23,13 +24,19 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.backgroundView.frame = self.view.frame;
+    self.backgroundView.contentMode = UIViewContentModeScaleAspectFill;
+    self.backgroundView.image = [UIImage imageNamed:@"cooking"];
+    [self.view addSubview:self.backgroundView];
+    
     self.theTableView = [[UITableView alloc] init];
     self.theTableView.frame = CGRectMake(self.view.frame.origin.x,
                                          self.view.frame.origin.y,
                                          self.view.frame.size.width,
                                          self.view.frame.size.height);
-    // note - this is so useful! 
+    // note - this is so useful!
     self.theTableView.contentInset = UIEdgeInsetsMake((self.navigationController.navigationBar.frame.origin.y + self.navigationController.navigationBar.frame.size.height), 0, 0, 0);
+    self.theTableView.backgroundColor = [UIColor clearColor];
     self.theTableView.delegate = self;
     self.theTableView.dataSource = self;
     [self.view addSubview:self.theTableView];
