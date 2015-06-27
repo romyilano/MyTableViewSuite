@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProgViewController : UIViewController
+@interface ProgViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) UITableView *theTableView;
 
 @end

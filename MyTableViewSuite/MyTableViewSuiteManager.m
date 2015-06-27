@@ -58,4 +58,28 @@
     }
 }
 
+- (void)fetchBaceJobRequestsDummyFile:(NSString *)fileName withCompletionBlock:(void (^)(NSArray *, NSError *))completionBlock {
+    
+    NSArray *finalArray = @[];
+    NSError *error;
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName
+                                                         ofType:@"json"];
+    NSData *jsonData = nil;
+    
+    if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
+        jsonData = [[NSFileManager defaultManager] contentsAtPath:filePath];
+        NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSUTF8StringEncoding error:&error];
+        if (jsonDict[@"requests"] && [jsonDict[@"requests"] isKindOfClass:[NSArray class]]) {
+            finalArray = jsonDict[@"requests"];
+        } else {
+            error = [[NSError alloc] initWithDomain:@"com.snowyla" code:0 userInfo:@{ NSLocalizedDescriptionKey: @"bad json formatting"}];
+        }
+    } else {
+        error = [[NSError alloc] initWithDomain:@"com.snowyla" code:0 userInfo:@{ NSLocalizedDescriptionKey: @"no json file"}];
+    }
+    if (completionBlock) {
+        completionBlock(finalArray, error);
+    }
+}
+
 @end

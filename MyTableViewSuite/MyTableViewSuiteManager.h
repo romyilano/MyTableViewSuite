@@ -16,4 +16,6 @@
 
 - (void)fetchBabyNameArrayWithIndexArray:(void(^)(NSArray *babyNameArray, NSArray *indexTitlesArray))completionBlock;
 
+- (void)fetchBaceJobRequestsDummyFile:(NSString *)fileName withCompletionBlock:(void(^)(NSArray *jobsRequests, NSError *error))completionBlock;
+
 @end

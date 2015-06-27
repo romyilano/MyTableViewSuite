@@ -72,7 +72,6 @@ static NSString *ButtonishCellIdentifier = @"ButtonishCellIdentifier";
     return buttonishTableViewCell;
 }
 
-
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
