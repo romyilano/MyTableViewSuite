@@ -43,6 +43,8 @@
 		ECD562C61B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562C41B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m */; };
 		ECD562C71B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD562C51B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib */; };
 		ECD562CA1B3E3B1000BE6320 /* BACEJob.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562C91B3E3B1000BE6320 /* BACEJob.m */; };
+		ECD562CC1B3E409A00BE6320 /* kombucha-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD562CB1B3E409A00BE6320 /* kombucha-dark@2x.png */; };
+		ECD562CE1B3E40A700BE6320 /* cooking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD562CD1B3E40A700BE6320 /* cooking@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,8 @@
 		ECD562C51B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgBACEJobTableViewCell.xib; sourceTree = "<group>"; };
 		ECD562C81B3E3B1000BE6320 /* BACEJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACEJob.h; sourceTree = "<group>"; };
 		ECD562C91B3E3B1000BE6320 /* BACEJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEJob.m; sourceTree = "<group>"; };
+		ECD562CB1B3E409A00BE6320 /* kombucha-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kombucha-dark@2x.png"; sourceTree = "<group>"; };
+		ECD562CD1B3E40A700BE6320 /* cooking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cooking@2x.png"; sourceTree = "<group>"; };
 		FDBBB9DF192CA0C293A7D60B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -264,6 +268,8 @@
 		EC7354BD1B3DC81D00FB7EE5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				ECD562CD1B3E40A700BE6320 /* cooking@2x.png */,
+				ECD562CB1B3E409A00BE6320 /* kombucha-dark@2x.png */,
 				EC7354B51B3DC81800FB7EE5 /* corkboard.png */,
 				EC7354B61B3DC81800FB7EE5 /* planet.png */,
 				EC7354B71B3DC81800FB7EE5 /* gingham.png */,
@@ -453,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD562CC1B3E409A00BE6320 /* kombucha-dark@2x.png in Resources */,
 				EC7354B01B3DC33E00FB7EE5 /* 3x.png in Resources */,
 				EC7354831B3DC17E00FB7EE5 /* LaunchScreen.storyboard in Resources */,
 				EC7354AA1B3DC20600FB7EE5 /* NibTableViewCell.xib in Resources */,
@@ -461,6 +468,7 @@
 				EC7354D91B3DD85100FB7EE5 /* NameAndColorCell.xib in Resources */,
 				EC7354B21B3DC36600FB7EE5 /* placeholderPNG.png in Resources */,
 				EC7354B41B3DC37400FB7EE5 /* baceIcon3x.png in Resources */,
+				ECD562CE1B3E40A700BE6320 /* cooking@2x.png in Resources */,
 				EC7354801B3DC17E00FB7EE5 /* Assets.xcassets in Resources */,
 				EC73547E1B3DC17E00FB7EE5 /* Main.storyboard in Resources */,
 				EC7354BC1B3DC81800FB7EE5 /* bluePrint.png in Resources */,

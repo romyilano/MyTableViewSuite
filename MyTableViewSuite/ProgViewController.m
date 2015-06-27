@@ -24,7 +24,12 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     // Do any additional setup after loading the view.
     
     self.theTableView = [[UITableView alloc] init];
-    self.theTableView.frame = self.view.frame;
+    self.theTableView.frame = CGRectMake(self.view.frame.origin.x,
+                                         self.view.frame.origin.y,
+                                         self.view.frame.size.width,
+                                         self.view.frame.size.height);
+    // note - this is so useful! 
+    self.theTableView.contentInset = UIEdgeInsetsMake((self.navigationController.navigationBar.frame.origin.y + self.navigationController.navigationBar.frame.size.height), 0, 0, 0);
     self.theTableView.delegate = self;
     self.theTableView.dataSource = self;
     [self.view addSubview:self.theTableView];

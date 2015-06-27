@@ -13,4 +13,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *jobDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *jobImageView;
 
+// this can also be a tapgesturerecognizer
+@property (weak, nonatomic) IBOutlet UIButton *invisibleButton;
+
+- (IBAction)invisibleBtnTapped:(UIButton *)sender;
+
 @end

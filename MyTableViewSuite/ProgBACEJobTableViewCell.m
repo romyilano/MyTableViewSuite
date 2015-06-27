@@ -12,7 +12,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
-    self.jobTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20.0];
+    self.jobTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17.0];
     self.jobDescriptionLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:12.0];
     self.jobDescriptionLabel.numberOfLines = 0;
     self.jobDescriptionLabel.textAlignment = NSTextAlignmentLeft;
@@ -23,6 +23,10 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (IBAction)invisibleBtnTapped:(UIButton *)sender {
+    // use a block
 }
 
 @end
