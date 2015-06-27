@@ -9,6 +9,7 @@
 #import "ProgViewController.h"
 #import "MyTableViewSuiteManager.h"
 #import "ProgBACEJobTableViewCell.h"
+#import "JobDetailViewController.h"
 #import "BACEJob.h"
 
 static NSString *JobCellIdentifier = @"JobCellIdentifier";
@@ -67,7 +68,6 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     }];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -96,6 +96,9 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     cell.jobTitleLabel.text = baceJob.jobName;
     cell.jobDescriptionLabel.text = baceJob.jobDescription;
     cell.jobImageView.image = [UIImage imageNamed:@"Planet"];
+    cell.actionBlock = ^ {
+        NSLog(@"Show an image for this one");
+    };
     
     return cell;
 }
@@ -105,7 +108,10 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
- 
+    
+    JobDetailViewController *jobDetailVC = [[JobDetailViewController alloc] initWithNibName:@"JobDetailViewController" bundle:nil];
+    jobDetailVC.baceJob = self.tableDataArray[indexPath.row];
+    [self.navigationController pushViewController:jobDetailVC animated:YES];
 }
 
 - (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {

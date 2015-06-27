@@ -45,6 +45,9 @@
 		ECD562CA1B3E3B1000BE6320 /* BACEJob.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562C91B3E3B1000BE6320 /* BACEJob.m */; };
 		ECD562CC1B3E409A00BE6320 /* kombucha-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD562CB1B3E409A00BE6320 /* kombucha-dark@2x.png */; };
 		ECD562CE1B3E40A700BE6320 /* cooking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD562CD1B3E40A700BE6320 /* cooking@2x.png */; };
+		ECD562D21B3E423700BE6320 /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562D01B3E423700BE6320 /* JobDetailViewController.m */; };
+		ECD562D31B3E423700BE6320 /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD562D11B3E423700BE6320 /* JobDetailViewController.xib */; };
+		ECD562D61B3E45E800BE6320 /* JobImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562D51B3E45E800BE6320 /* JobImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,11 @@
 		ECD562C91B3E3B1000BE6320 /* BACEJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACEJob.m; sourceTree = "<group>"; };
 		ECD562CB1B3E409A00BE6320 /* kombucha-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kombucha-dark@2x.png"; sourceTree = "<group>"; };
 		ECD562CD1B3E40A700BE6320 /* cooking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cooking@2x.png"; sourceTree = "<group>"; };
+		ECD562CF1B3E423700BE6320 /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
+		ECD562D01B3E423700BE6320 /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
+		ECD562D11B3E423700BE6320 /* JobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailViewController.xib; sourceTree = "<group>"; };
+		ECD562D41B3E45E800BE6320 /* JobImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobImageViewController.h; sourceTree = "<group>"; };
+		ECD562D51B3E45E800BE6320 /* JobImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobImageViewController.m; sourceTree = "<group>"; };
 		FDBBB9DF192CA0C293A7D60B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -339,6 +347,11 @@
 				ECD562C31B3E3A9400BE6320 /* ProgBACEJobTableViewCell.h */,
 				ECD562C41B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m */,
 				ECD562C51B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib */,
+				ECD562CF1B3E423700BE6320 /* JobDetailViewController.h */,
+				ECD562D01B3E423700BE6320 /* JobDetailViewController.m */,
+				ECD562D11B3E423700BE6320 /* JobDetailViewController.xib */,
+				ECD562D41B3E45E800BE6320 /* JobImageViewController.h */,
+				ECD562D51B3E45E800BE6320 /* JobImageViewController.m */,
 				ECD562C81B3E3B1000BE6320 /* BACEJob.h */,
 				ECD562C91B3E3B1000BE6320 /* BACEJob.m */,
 			);
@@ -476,6 +489,7 @@
 				ECD562C11B3E322600BE6320 /* bace_job_requests1.json in Resources */,
 				EC7354BB1B3DC81800FB7EE5 /* gingham.png in Resources */,
 				ECD562C71B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib in Resources */,
+				ECD562D31B3E423700BE6320 /* JobDetailViewController.xib in Resources */,
 				EC4B6CA81B3DF85C007860D8 /* ButtonDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,9 +551,11 @@
 				EC7354A91B3DC20600FB7EE5 /* NibTableViewCell.m in Sources */,
 				EC7354781B3DC17E00FB7EE5 /* AppDelegate.m in Sources */,
 				EC7354D81B3DD85100FB7EE5 /* NameAndColorCell.m in Sources */,
+				ECD562D21B3E423700BE6320 /* JobDetailViewController.m in Sources */,
 				EC7354CC1B3DCF5500FB7EE5 /* MyTableViewSuiteManager.m in Sources */,
 				EC4B6CA71B3DF85C007860D8 /* ButtonDetailViewController.m in Sources */,
 				ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */,
+				ECD562D61B3E45E800BE6320 /* JobImageViewController.m in Sources */,
 				ECD562CA1B3E3B1000BE6320 /* BACEJob.m in Sources */,
 				ECD562C61B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m in Sources */,
 				EC7354751B3DC17E00FB7EE5 /* main.m in Sources */,

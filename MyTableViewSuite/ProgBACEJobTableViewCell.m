@@ -29,6 +29,9 @@
 
 - (IBAction)invisibleBtnTapped:(UIButton *)sender {
     // use a block
+    if (self.actionBlock) {
+        self.actionBlock();
+    }
 }
 
 @end
