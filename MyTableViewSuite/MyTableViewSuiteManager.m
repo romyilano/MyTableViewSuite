@@ -7,6 +7,7 @@
 //
 
 #import "MyTableViewSuiteManager.h"
+#import "BACEJob.h"
 
 @implementation MyTableViewSuiteManager
 
@@ -70,7 +71,15 @@
         jsonData = [[NSFileManager defaultManager] contentsAtPath:filePath];
         NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSUTF8StringEncoding error:&error];
         if (jsonDict[@"requests"] && [jsonDict[@"requests"] isKindOfClass:[NSArray class]]) {
-            finalArray = jsonDict[@"requests"];
+            NSMutableArray *workingArray = [[NSMutableArray alloc] init];
+            for (NSDictionary *jobJsonDict in jsonDict[@"requests"]) {
+                if ([jobJsonDict isKindOfClass:[NSDictionary class]]) {
+                    BACEJob *baceJob = [[BACEJob alloc] initWithJsonDict:jobJsonDict];
+                    [workingArray addObject:baceJob];
+                }
+            }
+            finalArray = [workingArray copy];
+
         } else {
             error = [[NSError alloc] initWithDomain:@"com.snowyla" code:0 userInfo:@{ NSLocalizedDescriptionKey: @"bad json formatting"}];
         }

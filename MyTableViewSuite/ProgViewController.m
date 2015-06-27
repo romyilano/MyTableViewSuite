@@ -52,15 +52,7 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     
     [[MyTableViewSuiteManager sharedManager] fetchBaceJobRequestsDummyFile:@"bace_job_requests1" withCompletionBlock:^(NSArray *jobsRequests, NSError *error) {
         if (!error) {
-            if (jobsRequests.count > 0) {
-                for (NSDictionary *jobJsonDict in jobsRequests) {
-                    if ([jobJsonDict isKindOfClass:[NSDictionary class]]) {
-                        BACEJob *baceJob = [[BACEJob alloc] initWithJsonDict:jobJsonDict];
-                        [self.tableDataArray addObject:baceJob];
-                    }
-                }
-            }
-            
+            self.tableDataArray = [jobsRequests copy];
             [self.theTableView reloadData];
         } else {
             NSLog(@"There was an error: %@", error);
