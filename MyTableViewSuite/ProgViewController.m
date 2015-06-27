@@ -26,7 +26,7 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     
     self.backgroundView.frame = self.view.frame;
     self.backgroundView.contentMode = UIViewContentModeScaleAspectFill;
-    self.backgroundView.image = [UIImage imageNamed:@"cooking"];
+    self.backgroundView.image = [UIImage imageNamed:@"cooking@2x"];
     [self.view addSubview:self.backgroundView];
     
     self.theTableView = [[UITableView alloc] init];
@@ -92,7 +92,7 @@ static NSString *JobCellIdentifier = @"JobCellIdentifier";
     if (cell == nil) {
         cell = [[ProgBACEJobTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-   //  cell.textLabel.text = [NSString stringWithFormat:@"%@ : %@", baceJob.jobName, baceJob.jobDescription];
+    cell.backgroundColor = [UIColor clearColor];
     cell.jobTitleLabel.text = baceJob.jobName;
     cell.jobDescriptionLabel.text = baceJob.jobDescription;
     cell.jobImageView.image = [UIImage imageNamed:@"Planet"];
