@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3394B8AB47A36E2A1A926A62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBBB9DF192CA0C293A7D60B /* libPods.a */; };
 		EC4B6CA71B3DF85C007860D8 /* ButtonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B6CA51B3DF85C007860D8 /* ButtonDetailViewController.m */; };
 		EC4B6CA81B3DF85C007860D8 /* ButtonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4B6CA61B3DF85C007860D8 /* ButtonDetailViewController.xib */; };
 		EC4B6CAC1B3DFAA6007860D8 /* ButtonishTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B6CAA1B3DFAA6007860D8 /* ButtonishTableViewCell.m */; };
 		EC4B6CAD1B3DFAA6007860D8 /* ButtonishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4B6CAB1B3DFAA6007860D8 /* ButtonishTableViewCell.xib */; };
+		EC4B6CB01B3E0304007860D8 /* CheckMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B6CAF1B3E0304007860D8 /* CheckMarkTableViewController.m */; };
 		EC7354751B3DC17E00FB7EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354741B3DC17E00FB7EE5 /* main.m */; };
 		EC7354781B3DC17E00FB7EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354771B3DC17E00FB7EE5 /* AppDelegate.m */; };
 		EC73547E1B3DC17E00FB7EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC73547C1B3DC17E00FB7EE5 /* Main.storyboard */; };
@@ -36,6 +38,7 @@
 		EC7354D81B3DD85100FB7EE5 /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354D61B3DD85100FB7EE5 /* NameAndColorCell.m */; };
 		EC7354D91B3DD85100FB7EE5 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7354D71B3DD85100FB7EE5 /* NameAndColorCell.xib */; };
 		EC7354DD1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */; };
+		ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BF306B84D415FA9C092D786 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA50335AE9B4640EC83C813C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC4B6CA01B3DF679007860D8 /* ButtonCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCellDelegate.h; sourceTree = "<group>"; };
 		EC4B6CA41B3DF85C007860D8 /* ButtonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDetailViewController.h; sourceTree = "<group>"; };
 		EC4B6CA51B3DF85C007860D8 /* ButtonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDetailViewController.m; sourceTree = "<group>"; };
@@ -63,6 +68,8 @@
 		EC4B6CA91B3DFAA6007860D8 /* ButtonishTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonishTableViewCell.h; sourceTree = "<group>"; };
 		EC4B6CAA1B3DFAA6007860D8 /* ButtonishTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonishTableViewCell.m; sourceTree = "<group>"; };
 		EC4B6CAB1B3DFAA6007860D8 /* ButtonishTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonishTableViewCell.xib; sourceTree = "<group>"; };
+		EC4B6CAE1B3E0304007860D8 /* CheckMarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMarkTableViewController.h; sourceTree = "<group>"; };
+		EC4B6CAF1B3E0304007860D8 /* CheckMarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMarkTableViewController.m; sourceTree = "<group>"; };
 		EC7354701B3DC17E00FB7EE5 /* MyTableViewSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableViewSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7354741B3DC17E00FB7EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC7354761B3DC17E00FB7EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +111,9 @@
 		EC7354DA1B3DD86A00FB7EE5 /* NameAndColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameAndColorCell.h; sourceTree = "<group>"; };
 		EC7354DB1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCellTableViewController.h; sourceTree = "<group>"; };
 		EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCellTableViewController.m; sourceTree = "<group>"; };
+		ECD562BC1B3E30BB00BE6320 /* ProgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgViewController.h; sourceTree = "<group>"; };
+		ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgViewController.m; sourceTree = "<group>"; };
+		FDBBB9DF192CA0C293A7D60B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3394B8AB47A36E2A1A926A62 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +142,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38EA09326ABF4D877A2EE244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BF306B84D415FA9C092D786 /* Pods.debug.xcconfig */,
+				BA50335AE9B4640EC83C813C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7640B89018FBACB5404F307F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBBB9DF192CA0C293A7D60B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4B6CB11B3E0307007860D8 /* CheckMark */ = {
+			isa = PBXGroup;
+			children = (
+				EC4B6CAE1B3E0304007860D8 /* CheckMarkTableViewController.h */,
+				EC4B6CAF1B3E0304007860D8 /* CheckMarkTableViewController.m */,
+			);
+			name = CheckMark;
+			sourceTree = "<group>";
+		};
 		EC7354671B3DC17E00FB7EE5 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +175,8 @@
 				EC73548C1B3DC17E00FB7EE5 /* MyTableViewSuiteTests */,
 				EC7354971B3DC17E00FB7EE5 /* MyTableViewSuiteUITests */,
 				EC7354711B3DC17E00FB7EE5 /* Products */,
+				38EA09326ABF4D877A2EE244 /* Pods */,
+				7640B89018FBACB5404F307F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,9 +196,12 @@
 				EC7354761B3DC17E00FB7EE5 /* AppDelegate.h */,
 				EC7354771B3DC17E00FB7EE5 /* AppDelegate.m */,
 				EC73547C1B3DC17E00FB7EE5 /* Main.storyboard */,
+				ECD562BC1B3E30BB00BE6320 /* ProgViewController.h */,
+				ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */,
+				EC7354CD1B3DCFA500FB7EE5 /* Manager Middle */,
+				EC4B6CB11B3E0307007860D8 /* CheckMark */,
 				EC7354DE1B3DDD0000FB7EE5 /* ButtonCellSample */,
 				EC7354D51B3DD7C300FB7EE5 /* Computers */,
-				EC7354CD1B3DCFA500FB7EE5 /* Manager Middle */,
 				EC7354C31B3DC86500FB7EE5 /* OddEvenSample */,
 				EC7354AE1B3DC25100FB7EE5 /* NibCellSample */,
 				EC73547F1B3DC17E00FB7EE5 /* Assets.xcassets */,
@@ -280,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC73549D1B3DC17E00FB7EE5 /* Build configuration list for PBXNativeTarget "MyTableViewSuite" */;
 			buildPhases = (
+				7D6D08DF993F60200ADB6F78 /* Check Pods Manifest.lock */,
 				EC73546C1B3DC17E00FB7EE5 /* Sources */,
 				EC73546D1B3DC17E00FB7EE5 /* Frameworks */,
 				EC73546E1B3DC17E00FB7EE5 /* Resources */,
+				8CDEF30084CC989A8ACD9E27 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,6 +454,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D6D08DF993F60200ADB6F78 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDEF30084CC989A8ACD9E27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC73546C1B3DC17E00FB7EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -420,10 +497,12 @@
 				EC7354D81B3DD85100FB7EE5 /* NameAndColorCell.m in Sources */,
 				EC7354CC1B3DCF5500FB7EE5 /* MyTableViewSuiteManager.m in Sources */,
 				EC4B6CA71B3DF85C007860D8 /* ButtonDetailViewController.m in Sources */,
+				ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */,
 				EC7354751B3DC17E00FB7EE5 /* main.m in Sources */,
 				EC7354D41B3DD7C000FB7EE5 /* ComputersViewController.m in Sources */,
 				EC7354C91B3DC8EB00FB7EE5 /* EvenCell.m in Sources */,
 				EC4B6CAC1B3DFAA6007860D8 /* ButtonishTableViewCell.m in Sources */,
+				EC4B6CB01B3E0304007860D8 /* CheckMarkTableViewController.m in Sources */,
 				EC7354AD1B3DC24C00FB7EE5 /* NibCellSampleTableViewController.m in Sources */,
 				EC7354C21B3DC86200FB7EE5 /* OddEvenTableViewController.m in Sources */,
 				EC7354C81B3DC8EB00FB7EE5 /* OddCell.m in Sources */,
@@ -564,6 +643,7 @@
 		};
 		EC73549E1B3DC17E00FB7EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF306B84D415FA9C092D786 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -576,6 +656,7 @@
 		};
 		EC73549F1B3DC17E00FB7EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA50335AE9B4640EC83C813C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
