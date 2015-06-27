@@ -7,7 +7,14 @@
 //
 
 #import "MyTableViewSuiteManager.h"
+#import "MyTableViewSuiteNetwork.h"
 #import "BACEJob.h"
+
+@interface MyTableViewSuiteManager()
+
+@property (strong, nonatomic) MyTableViewSuiteNetwork *networkManager;
+
+@end
 
 @implementation MyTableViewSuiteManager
 
@@ -17,8 +24,16 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _sharedManager = [[self alloc] init];
+        
     });
     return _sharedManager;
+}
+
+- (id)init {
+    if (self = [super init]) {
+        self.networkManager = [[MyTableViewSuiteNetwork alloc] init];
+    }
+    return self;
 }
 
 - (void)fetchRandomWordData:(void (^)(NSArray *, NSArray *))completionBlock {

@@ -48,6 +48,7 @@
 		ECD562D21B3E423700BE6320 /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562D01B3E423700BE6320 /* JobDetailViewController.m */; };
 		ECD562D31B3E423700BE6320 /* JobDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD562D11B3E423700BE6320 /* JobDetailViewController.xib */; };
 		ECD562D61B3E45E800BE6320 /* JobImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562D51B3E45E800BE6320 /* JobImageViewController.m */; };
+		ECD562D91B3E49A500BE6320 /* MyTableViewSuiteNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562D81B3E49A500BE6320 /* MyTableViewSuiteNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,8 @@
 		ECD562D11B3E423700BE6320 /* JobDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailViewController.xib; sourceTree = "<group>"; };
 		ECD562D41B3E45E800BE6320 /* JobImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobImageViewController.h; sourceTree = "<group>"; };
 		ECD562D51B3E45E800BE6320 /* JobImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobImageViewController.m; sourceTree = "<group>"; };
+		ECD562D71B3E49A500BE6320 /* MyTableViewSuiteNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewSuiteNetwork.h; sourceTree = "<group>"; };
+		ECD562D81B3E49A500BE6320 /* MyTableViewSuiteNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewSuiteNetwork.m; sourceTree = "<group>"; };
 		FDBBB9DF192CA0C293A7D60B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -307,6 +310,8 @@
 			children = (
 				EC7354CA1B3DCF5500FB7EE5 /* MyTableViewSuiteManager.h */,
 				EC7354CB1B3DCF5500FB7EE5 /* MyTableViewSuiteManager.m */,
+				ECD562D71B3E49A500BE6320 /* MyTableViewSuiteNetwork.h */,
+				ECD562D81B3E49A500BE6320 /* MyTableViewSuiteNetwork.m */,
 			);
 			name = "Manager Middle";
 			sourceTree = "<group>";
@@ -565,6 +570,7 @@
 				EC4B6CB01B3E0304007860D8 /* CheckMarkTableViewController.m in Sources */,
 				EC7354AD1B3DC24C00FB7EE5 /* NibCellSampleTableViewController.m in Sources */,
 				EC7354C21B3DC86200FB7EE5 /* OddEvenTableViewController.m in Sources */,
+				ECD562D91B3E49A500BE6320 /* MyTableViewSuiteNetwork.m in Sources */,
 				EC7354C81B3DC8EB00FB7EE5 /* OddCell.m in Sources */,
 				EC7354DD1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m in Sources */,
 			);
