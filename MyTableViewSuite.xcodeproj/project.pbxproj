@@ -39,6 +39,7 @@
 		EC7354D91B3DD85100FB7EE5 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7354D71B3DD85100FB7EE5 /* NameAndColorCell.xib */; };
 		EC7354DD1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */; };
 		EC7C81F21B41944C00D77CBC /* StoryboardIDTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C81F01B41944C00D77CBC /* StoryboardIDTest.storyboard */; };
+		EC7C81F51B419A1500D77CBC /* LoneNavWolf3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C81F41B419A1500D77CBC /* LoneNavWolf3ViewController.m */; };
 		ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */; };
 		ECD562C11B3E322600BE6320 /* bace_job_requests1.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD562C01B3E322600BE6320 /* bace_job_requests1.json */; };
 		ECD562C61B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562C41B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m */; };
@@ -123,6 +124,8 @@
 		EC7354DB1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCellTableViewController.h; sourceTree = "<group>"; };
 		EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCellTableViewController.m; sourceTree = "<group>"; };
 		EC7C81F11B41944C00D77CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StoryboardIDTest.storyboard; sourceTree = "<group>"; };
+		EC7C81F31B419A1500D77CBC /* LoneNavWolf3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoneNavWolf3ViewController.h; sourceTree = "<group>"; };
+		EC7C81F41B419A1500D77CBC /* LoneNavWolf3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoneNavWolf3ViewController.m; sourceTree = "<group>"; };
 		ECD562BC1B3E30BB00BE6320 /* ProgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgViewController.h; sourceTree = "<group>"; };
 		ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgViewController.m; sourceTree = "<group>"; };
 		ECD562C01B3E322600BE6320 /* bace_job_requests1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bace_job_requests1.json; sourceTree = "<group>"; };
@@ -272,6 +275,8 @@
 			children = (
 				EC7354AB1B3DC24C00FB7EE5 /* NibCellSampleTableViewController.h */,
 				EC7354AC1B3DC24C00FB7EE5 /* NibCellSampleTableViewController.m */,
+				EC7C81F31B419A1500D77CBC /* LoneNavWolf3ViewController.h */,
+				EC7C81F41B419A1500D77CBC /* LoneNavWolf3ViewController.m */,
 				EC7354A61B3DC20600FB7EE5 /* NibTableViewCell.h */,
 				EC7354A71B3DC20600FB7EE5 /* NibTableViewCell.m */,
 				EC7354A81B3DC20600FB7EE5 /* NibTableViewCell.xib */,
@@ -564,6 +569,7 @@
 				EC7354CC1B3DCF5500FB7EE5 /* MyTableViewSuiteManager.m in Sources */,
 				EC4B6CA71B3DF85C007860D8 /* ButtonDetailViewController.m in Sources */,
 				ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */,
+				EC7C81F51B419A1500D77CBC /* LoneNavWolf3ViewController.m in Sources */,
 				ECD562D61B3E45E800BE6320 /* JobImageViewController.m in Sources */,
 				ECD562CA1B3E3B1000BE6320 /* BACEJob.m in Sources */,
 				ECD562C61B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m in Sources */,

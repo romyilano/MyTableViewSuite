@@ -8,6 +8,7 @@
 
 #import "NibCellSampleTableViewController.h"
 #import "NibTableViewCell.h"
+#import "LoneNavWolf3ViewController.h"
 
 @interface NibCellSampleTableViewController ()
 
@@ -57,6 +58,13 @@
    // NibTableViewCell *cell = (NibTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     //return 100.0;
     return [NibTableViewCell nibCellHeight];
+}
+
+- (void)tableView:(nonnull UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    // LoneNavWolf3
+   //   ButtonDetailViewController *bdvc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ButtonDetailLoneWolf"];
+    LoneNavWolf3ViewController *loneNavWolf3VC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LoneNavWolf3"];
+    [self.navigationController presentViewController:loneNavWolf3VC animated:YES completion:nil];
 }
 
 @end
