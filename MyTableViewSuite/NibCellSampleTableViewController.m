@@ -52,5 +52,11 @@
     return cell;
 }
 
+- (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    // remember this causes a crash because it causes an infinite cycle
+   // NibTableViewCell *cell = (NibTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+    //return 100.0;
+    return [NibTableViewCell nibCellHeight];
+}
 
 @end

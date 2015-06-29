@@ -12,4 +12,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *nibImageView;
 @property (weak, nonatomic) IBOutlet UILabel *nibLabel;
 
+// since this is a class method you can use this
+// trying to access the cell from the heightatindexpath method will cause an infinite loop
++ (CGFloat)nibCellHeight;
+
 @end

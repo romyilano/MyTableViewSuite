@@ -22,4 +22,13 @@
     // Configure the view for the selected state
 }
 
++ (CGFloat)nibCellHeight {
+    CGFloat topMargin = 10.0;
+    CGFloat bottomMargin = 10.0;
+    
+    CGFloat imageHeight = 80.0;
+    
+    return topMargin + imageHeight + bottomMargin;
+}
+
 @end
