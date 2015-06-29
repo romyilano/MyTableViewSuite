@@ -10,4 +10,6 @@
 
 @interface MyTableViewSuiteNetwork : NSObject
 
+- (void)fetchRottenTomatoesMovies:(void(^)(NSArray *movies, BOOL success, NSError *error))completionBlock;
+
 @end

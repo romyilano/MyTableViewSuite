@@ -25,10 +25,17 @@ typedef NS_ENUM(NSUInteger, BACEJobSeverityLevel) {
 @property (strong, nonatomic) NSString *createdAtString;
 @property (strong, nonatomic) NSString *updatedAtString;
 
+/*
 @property (strong, nonatomic) NSDate *createdAt;
 @property (strong, nonatomic) NSDate *updatedAt;
 @property (assign, nonatomic) BACEJobSeverityLevel severity;
+ */
 
 - (instancetype)initWithJsonDict:(NSDictionary *)jsonDict;
+/*
+- (NSDate *)createdAt;
+- (NSDate *)updatedAt;
+- (BACEJobSeverityLevel)severity;
+*/
 
 @end

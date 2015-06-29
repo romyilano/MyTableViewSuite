@@ -116,6 +116,26 @@
                                             <segue destination="leS-Hk-o77" kind="show" id="5NV-XB-jj0"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="6dQ-AO-uP7" style="IBUITableViewCellStyleDefault" id="kQD-gf-dvf">
+                                        <rect key="frame" x="0.0" y="306" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kQD-gf-dvf" id="cH4-00-RYO">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="New Storyboard ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6dQ-AO-uP7">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="teh-GT-mQK" kind="presentation" id="myb-xt-AIg"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -129,6 +149,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KdD-Iw-7SF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1142" y="35"/>
+        </scene>
+        <!--StoryboardIDTest-->
+        <scene sceneID="QOd-LJ-sU3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StoryboardIDTest" id="teh-GT-mQK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPN-3A-25z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="442"/>
         </scene>
         <!--Button Cell Table View Controller-->
         <scene sceneID="L4V-h3-Gcu">
@@ -156,7 +184,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MrH-gg-xKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1989" y="1517"/>
+            <point key="canvasLocation" x="3889" y="1469"/>
         </scene>
         <!--Computers View Controller-->
         <scene sceneID="rsz-ah-FID">
@@ -249,7 +277,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Li0-Th-eNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1956" y="821"/>
+            <point key="canvasLocation" x="3856" y="773"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QyP-eJ-KJ2">
@@ -285,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUl-ky-dtu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="832" y="802"/>
+            <point key="canvasLocation" x="2732" y="754"/>
         </scene>
         <!--Button Detail View Controller-->
         <scene sceneID="kIq-ze-Hbi">
@@ -321,7 +349,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lRq-cO-T2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="861"/>
+            <point key="canvasLocation" x="3272" y="813"/>
         </scene>
     </scenes>
 </document>

@@ -38,6 +38,7 @@
 		EC7354D81B3DD85100FB7EE5 /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354D61B3DD85100FB7EE5 /* NameAndColorCell.m */; };
 		EC7354D91B3DD85100FB7EE5 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7354D71B3DD85100FB7EE5 /* NameAndColorCell.xib */; };
 		EC7354DD1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */; };
+		EC7C81F21B41944C00D77CBC /* StoryboardIDTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7C81F01B41944C00D77CBC /* StoryboardIDTest.storyboard */; };
 		ECD562BE1B3E30BB00BE6320 /* ProgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */; };
 		ECD562C11B3E322600BE6320 /* bace_job_requests1.json in Resources */ = {isa = PBXBuildFile; fileRef = ECD562C01B3E322600BE6320 /* bace_job_requests1.json */; };
 		ECD562C61B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD562C41B3E3A9400BE6320 /* ProgBACEJobTableViewCell.m */; };
@@ -121,6 +122,7 @@
 		EC7354DA1B3DD86A00FB7EE5 /* NameAndColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameAndColorCell.h; sourceTree = "<group>"; };
 		EC7354DB1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCellTableViewController.h; sourceTree = "<group>"; };
 		EC7354DC1B3DDCFA00FB7EE5 /* ButtonCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCellTableViewController.m; sourceTree = "<group>"; };
+		EC7C81F11B41944C00D77CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StoryboardIDTest.storyboard; sourceTree = "<group>"; };
 		ECD562BC1B3E30BB00BE6320 /* ProgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgViewController.h; sourceTree = "<group>"; };
 		ECD562BD1B3E30BB00BE6320 /* ProgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgViewController.m; sourceTree = "<group>"; };
 		ECD562C01B3E322600BE6320 /* bace_job_requests1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bace_job_requests1.json; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				EC7354771B3DC17E00FB7EE5 /* AppDelegate.m */,
 				ECD562C21B3E322B00BE6320 /* json */,
 				EC73547C1B3DC17E00FB7EE5 /* Main.storyboard */,
+				EC7C81F01B41944C00D77CBC /* StoryboardIDTest.storyboard */,
 				EC7354CD1B3DCFA500FB7EE5 /* Manager Middle */,
 				ECD562BF1B3E30F700BE6320 /* ProgTableViewController */,
 				EC4B6CB11B3E0307007860D8 /* CheckMark */,
@@ -493,6 +496,7 @@
 				EC7354B91B3DC81800FB7EE5 /* corkboard.png in Resources */,
 				ECD562C11B3E322600BE6320 /* bace_job_requests1.json in Resources */,
 				EC7354BB1B3DC81800FB7EE5 /* gingham.png in Resources */,
+				EC7C81F21B41944C00D77CBC /* StoryboardIDTest.storyboard in Resources */,
 				ECD562C71B3E3A9400BE6320 /* ProgBACEJobTableViewCell.xib in Resources */,
 				ECD562D31B3E423700BE6320 /* JobDetailViewController.xib in Resources */,
 				EC4B6CA81B3DF85C007860D8 /* ButtonDetailViewController.xib in Resources */,
@@ -622,6 +626,14 @@
 				EC7354821B3DC17E00FB7EE5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7C81F01B41944C00D77CBC /* StoryboardIDTest.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7C81F11B41944C00D77CBC /* Base */,
+			);
+			name = StoryboardIDTest.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
